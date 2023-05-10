@@ -1,0 +1,48 @@
+.fs-7{
+    font-size: 10px;
+}
+#home{
+    background-image: url(img/Picture2.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.bottom-75{
+ top: 75%;
+}
+
+.title .layer::after{
+    content: "";
+    border-bottom: 1px solid black;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    bottom: -10%;
+}
+.text-lightred{
+    color: rgb(174, 87, 87);
+}
+.bg-lightred{
+    background-color: rgb(174, 87, 87) ;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    border: 10px solid rgb(216, 108, 108) !important; 
+    font-size: 50px;
+    transition: all 0.5s;
+}
+.card1:hover .icon{
+    border-color: #f8cdcd !important;
+    background-color: rgb(216, 108, 108);
+    color: white;
+    scale: 1.1;
+
+}
+.bg-gray{
+    background-color: rgb(55, 55, 55);
+}
+.border01{
+    border-bottom: .1px solid rgba(255, 255, 255, 0.314);
+
+}
